@@ -1,0 +1,469 @@
+﻿/* COMMON */
+
+/* Default - Desktop and Laptop*/
+/*-----------------------------*/
+body   
+{
+    background: #ececec;
+    font-size: 16px;   
+    font-family: "Open Sans", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+/* Header */
+.coverPhoto
+{
+    /*background-image: url('../images/CoverFlowersBlur.jpg');
+    background-position: -1200px -1080px;*/
+    background-image: url('../images/BlueCoverPhoto3.jpg');
+    background-position:bottom;
+    background-repeat: repeat-x;
+    width:100%;
+    height:30em;    
+    overflow:hidden;
+    top:0px;
+}
+
+.nameHeader
+{
+    padding-top: 7em;
+    margin-right: 50%;
+    float:right;
+    /*width: 37em;*/
+}
+    
+.descriptionHeader
+{
+    margin-top: -3em;
+    float:right;
+}
+
+.navMenu
+{
+    /*background-image: url('../images/CoverFlowersBlur.jpg');
+    background-position: -1200px -1000px;*/
+    background-image: url('../images/BlueCoverPhoto3.jpg');
+    background-position:top;
+    background-repeat: repeat-x;
+    width:100%;
+    height:5em;    
+    overflow:hidden;
+    top:0px;
+    /*border-bottom: 0.1em solid #fff;*/
+}
+
+.navMenuContent
+{
+    /*width: 60%;
+    margin-left:20%;
+    margin-right:20%;*/
+}
+
+.navMenuItem
+{
+    font-size: 1.5em;
+    font-weight:bold;
+    float:right;
+    margin-right: 2em;
+    margin-left: 1em;
+    line-height: 3em;
+   
+}
+
+.navFooter
+{
+    /*background-image: url('../images/CoverFlowersBlur.jpg');
+    background-position: -1200px -1080px;*/
+    background-image: url('../images/BlueCoverPhoto3.jpg');
+    background-position:bottom;
+    background-repeat: repeat-x;
+    width:100%;
+    height:5em;    
+    overflow:hidden;
+    bottom:0;
+    left:0;
+}
+
+.navFooterItem
+{
+    font-size: 0.8em;
+    float:right;
+    margin-right: 5em;
+    line-height: 6em;
+    color: #fff;
+}
+
+.ui-menu { width: 150px; }
+
+/* HEADINGS */
+h1
+{
+    font-size: 3.5em;
+    text-transform:uppercase;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #e3e3e3 !important; /* change colour to #fff*/
+    font-weight:300;
+}
+
+h2
+{
+    font-size: 3em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 200;
+    color: #2e2e2e !important;
+}
+
+h3
+{
+    font-size: 16px;
+    font-weight:bold;
+    color: #2e2e2e !important;
+    margin-top: -0.1em;
+}
+
+h4
+{
+    font-size: 13px;
+    color: #9c9c9c !important;
+    font-family: Arial, Helvetica, Verdana;
+    font-weight: normal;
+}
+
+/*Highlighting Headers*/
+h5
+{
+    font-size: 11px;
+    color: #bf3136;
+    font-weight:bold;
+}
+
+h6
+{
+    font-size: 1em;
+    color: #adb1e3;
+    font-weight:bold;
+}
+
+h7
+{
+    font-size: 11px;
+    color: #876936;
+    font-weight:bold;
+}
+
+/* LINKS */
+
+a:link, a:visited
+{
+    color: #b9bba2;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #a5a2bb;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #b0b397;
+}
+
+
+
+/* Tablet & iPad */
+/*---------------*/
+@media screen and (max-width: 960px)
+{
+
+    h1
+    {
+        font-size: 3em;
+    }
+    
+    .nameHeader
+    {
+        text-align:center;  
+        margin-right:inherit;
+        float:none;
+        
+    }
+    
+    .descriptionHeader
+    {
+        float:none;
+        }
+}
+
+/* Large phones */
+/*--------------*/
+@media screen and (max-width: 768px)
+{
+    h2
+    {
+        font-size: 2.5em;
+    }
+}
+
+/* Medium phones */
+/*---------------*/
+@media screen and (max-width: 480px)
+{
+    h1
+    {
+        font-size: 2.5em;
+    }
+    
+    h2
+    {
+        font-size: 2em;
+    }
+    
+    h6
+    {
+        font-size: 0.8em;
+        margin-top: 3.5em;
+    }
+}
+
+/* Small phones */
+/*--------------*/
+@media screen and (max-width: 320px){
+
+   
+}
+
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+
+
+
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}

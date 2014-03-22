@@ -1,0 +1,5 @@
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\bin\Daisy.dll
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\bin\Daisy.pdb
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Release\Daisy.dll
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Release\Daisy.pdb
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Release\Daisy.csprojResolveAssemblyReference.cache

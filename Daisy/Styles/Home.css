@@ -1,0 +1,243 @@
+﻿body {
+}
+
+.row
+{
+    height:10em;
+    
+}
+
+.contPrimary
+{
+    width:50%;
+    margin-left:25%;
+    min-height: 25em;    
+}
+
+.contPrimaryTitle
+{
+    text-align:center;
+    line-height:8em;
+}
+
+.contPrimaryItem
+{
+    width:50%;
+    height:10em;
+    float:left; 
+}
+
+.contDescription
+{
+    margin-left: 8%;
+    float:left;  
+    width: 55%;  
+}
+
+.contIcon
+{
+    width: 80px;
+    height: 80px;
+    overflow:hidden;
+    float:left;
+    border-radius: 40px; 
+    -webkit-border-radius: 40px; 
+    -moz-border-radius:40px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.contIconAbout
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: 0px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.aboutColour
+{
+    background-color: #30485b;
+    }
+
+/*.contIconAbout:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -66px 0px;
+}*/
+
+.contIconContact
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -126px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.contactColour
+{
+    background-color: #598aad;
+    }
+
+/*.contIconContact:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -328px 0px;
+}*/
+
+.contIconResume
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: 0px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*.contIconResume:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -329px -66px;
+}*/
+
+.contIconWeb
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -42px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.webColour
+{
+    background-color: #7c9453;
+    }
+
+/*.contIconWeb:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -66px -66px;
+}*/
+
+.contIconHome
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -0px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*.contIconHome:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -197px 0px;
+}*/
+
+.contIconPics
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -84px 0px;
+    height:40px;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.picsColour
+{
+    background-color: #666286;
+    }
+
+/*.contIconInfo:hover
+{
+    background-image: url('../Images/Sprite.png');
+    background-position: -197px -66px;
+}*/
+    
+.contSecondary
+{
+    width:100%;
+    min-height: 20em;
+    background: #fafafa;
+    
+}
+
+
+/* Tablet & iPad */
+/*---------------*/
+@media screen and (max-width: 960px){
+
+   .contPrimary
+    {
+        width:90%;
+        margin-left: 5%;
+        position:relative;
+    }
+
+    .contPrimaryItem
+    {
+        width:100%;
+        float:left; 
+    }
+
+    .contIcon
+    {
+        margin-left:0em;        
+    }
+    
+    .contDescription
+    {
+        margin-left: 5%;
+        float:left;  
+        width: 70%;  
+        text-align:left;
+    }
+    
+    
+
+}
+
+/* Large phones */
+/*--------------*/
+@media screen and (max-width: 768px)
+{
+   
+}
+
+/* Medium phones */
+/*---------------*/
+@media screen and (max-width: 480px){
+    .contDescription
+    {
+        width: 60%;  
+    }
+}
+
+/* Small phones */
+/*--------------*/
+@media screen and (max-width: 320px){
+    .contDescription
+    {
+        width: 100%;  
+    }
+    
+    .contIcon
+    {
+        height:0em;       
+    }
+}
