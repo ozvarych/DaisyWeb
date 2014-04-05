@@ -1,20 +1,61 @@
-﻿$(document).ready(function () {
+﻿$(window).load(function () {
+//    var originalAbout = $(".aboutColour").css('background-color');
+//    var originalWeb = $(".webColour").css('background-color');
+//    var originalPics = $(".picsColour").css('background-color');
+    //    var originalContact = $(".contactColour").css('background-color');
 
-
-});
-
-
-$(function () {
     var original = $(".aboutColour").css('background-color');
     colourFade(".aboutColour", original);
-    var original = $(".webColour").css('background-color');
+    original = $(".webColour").css('background-color');
     colourFade(".webColour", original);
-    var original = $(".picsColour").css('background-color');
+    original = $(".picsColour").css('background-color');
     colourFade(".picsColour", original);
-    var original = $(".contactColour").css('background-color');
+    original = $(".contactColour").css('background-color');
     colourFade(".contactColour", original);
-    
+
+    $('.aboutColour').click(function () {
+        window.location = "About.aspx";
+    });
+
+    $('.webColour').click(function () {
+        window.location = "Web.aspx";
+    });
+
+    $('.picsColour').click(function () {
+        window.location = "Pics.aspx";
+    });
+
+    $('.contactColour').click(function () {
+        window.location = "Contact.aspx";
+    });
+
 });
+
+
+
+//$('.aboutColour').hover(
+//    function () {        
+//        $(this).animate({ 'backgroundColor': '#fff' }, 400);
+//    },
+//    function () {
+//        $(this).animate({ 'backgroundColor': originalAbout }, 400);
+//    }
+//);
+
+//$('.webColour').hover(
+//    function () {
+//        $(this).animate({ 'backgroundColor': '#fff' }, 400);
+//    },
+//    function () {
+//        $(this).animate({ 'backgroundColor': originalWeb }, 400);
+//    }
+//);
+
+
+//$(function () {
+//    
+//    
+//});
 
 
 function colourFade(obj, original) 

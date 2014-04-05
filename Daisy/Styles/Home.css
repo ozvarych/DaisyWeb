@@ -11,7 +11,7 @@
 {
     width:50%;
     margin-left:25%;
-    min-height: 25em;    
+    min-height: 26em;    
 }
 
 .contPrimaryTitle
@@ -23,7 +23,7 @@
 .contPrimaryItem
 {
     width:50%;
-    height:10em;
+    height:8em;
     float:left; 
 }
 
@@ -31,7 +31,7 @@
 {
     margin-left: 8%;
     float:left;  
-    width: 55%;  
+    width: 70%;  
 }
 
 .contIcon
@@ -45,9 +45,10 @@
     -moz-border-radius:40px;
     text-align:center;
     vertical-align:middle;
+    cursor:pointer;
 }
 
-.contIconAbout
+.aboutContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: 0px 0px;
@@ -69,7 +70,7 @@
     background-position: -66px 0px;
 }*/
 
-.contIconContact
+.contactContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: -126px 0px;
@@ -91,7 +92,7 @@
     background-position: -328px 0px;
 }*/
 
-.contIconResume
+.resumeContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: 0px 0px;
@@ -108,7 +109,7 @@
     background-position: -329px -66px;
 }*/
 
-.contIconWeb
+.webContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: -42px 0px;
@@ -130,7 +131,7 @@
     background-position: -66px -66px;
 }*/
 
-.contIconHome
+.homeContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: -0px 0px;
@@ -147,7 +148,7 @@
     background-position: -197px 0px;
 }*/
 
-.contIconPics
+.picsContIcon
 {
     background-image: url('../Images/Sprite2.png');
     background-position: -84px 0px;
@@ -168,13 +169,35 @@
     background-image: url('../Images/Sprite.png');
     background-position: -197px -66px;
 }*/
-    
-.contSecondary
+
+@media screen and (max-width: 1600px)
 {
-    width:100%;
-    min-height: 20em;
-    background: #fafafa;
     
+    .contPrimary
+    {
+        width:70%;
+        margin-left:15%;
+        min-height: 26em;    
+    }
+    .contPrimaryItem   
+    {
+        height: 9em;
+    } 
+}
+
+@media screen and (max-width: 1200px)
+{
+    
+    .contPrimary
+    {
+        width:80%;
+        margin-left:10%;
+        min-height: 26em;    
+    }
+    .contPrimaryItem   
+    {
+        height: 9em;
+    } 
 }
 
 
@@ -187,12 +210,14 @@
         width:90%;
         margin-left: 5%;
         position:relative;
+        min-height: 34em;    
     }
 
     .contPrimaryItem
     {
         width:100%;
         float:left; 
+        height: auto;
     }
 
     .contIcon
@@ -207,16 +232,25 @@
         width: 70%;  
         text-align:left;
     }
-    
-    
-
 }
 
 /* Large phones */
 /*--------------*/
 @media screen and (max-width: 768px)
 {
-   
+   .contPrimary
+    {
+        width:90%;
+        margin-left:5%;          
+    }
+}
+
+@media screen and (max-width: 600px)
+{    
+    .contPrimary
+    {
+        min-height: 36em;    
+    }
 }
 
 /* Medium phones */
@@ -224,7 +258,24 @@
 @media screen and (max-width: 480px){
     .contDescription
     {
-        width: 60%;  
+        width: 55%;  
+    }
+    
+    .contPrimary
+    {
+        min-height: 40em;    
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contDescription
+    {
+        width: 55%;  
+    }
+    
+    .contPrimary
+    {
+        min-height: 44em;    
     }
 }
 
@@ -240,4 +291,31 @@
     {
         height:0em;       
     }
+    
+    .contPrimary
+    {
+        width:100%;
+        margin-left:0%;
+        min-height: 35em;    
+    }
+}
+
+
+/* LINKS */
+
+.contDescription a:link, .contDescription a:visited
+{
+    color: #696969 !important;
+    text-decoration:none;
+}
+
+.contDescription a:hover
+{
+    color: #9a9a9a !important;
+    text-decoration: underline;
+}
+
+.contDescription a:active
+{
+    color: #b9bba2 !important;
 }

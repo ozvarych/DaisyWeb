@@ -2,3 +2,5 @@ C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\bin\Daisy.dll
 C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\bin\Daisy.pdb
 C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Debug\Daisy.dll
 C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Debug\Daisy.pdb
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Debug\Daisy.csproj.GenerateResource.Cache
+C:\Users\Oksana\Documents\Visual Studio 2010\Projects\Daisy\Daisy\obj\Debug\Daisy.App_GlobalResources.ResourceStrings.resources

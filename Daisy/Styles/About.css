@@ -1,0 +1,29 @@
+﻿body {
+}
+
+
+.contPrimary
+{
+    width:50%;
+    padding-left:25%;
+    padding-right:25%;
+}
+
+.contPrimaryTitle
+{
+    text-align:center;
+    line-height:8em;
+}
+
+.myPhotograph
+{
+    background-image: url('../Images/myPhotograph.jpg');
+    background-position: 0px 0px;
+    height:120px;
+    width:120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px; 
+    -webkit-border-radius: 60px; 
+    -moz-border-radius:60px;    
+}

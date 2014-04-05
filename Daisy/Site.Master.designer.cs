@@ -49,6 +49,15 @@ namespace Daisy {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor navAboutItem;
         
         /// <summary>
+        /// Literal1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal Literal1;
+        
+        /// <summary>
         /// navHomeItem control.
         /// </summary>
         /// <remarks>
@@ -56,6 +65,15 @@ namespace Daisy {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor navHomeItem;
+        
+        /// <summary>
+        /// Literal2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal Literal2;
         
         /// <summary>
         /// phdHeaderCoverPhoto control.
@@ -74,6 +92,24 @@ namespace Daisy {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        
+        /// <summary>
+        /// phdSecondaryCont control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder phdSecondaryCont;
+        
+        /// <summary>
+        /// phdConnectContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phdConnectContent;
         
         /// <summary>
         /// phdNavFooter control.

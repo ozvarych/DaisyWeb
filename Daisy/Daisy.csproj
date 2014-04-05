@@ -56,19 +56,18 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Pics.aspx" />
     <Content Include="Images\BlueCoverPhoto.jpg" />
     <Content Include="Images\BlueCoverPhoto2.jpg" />
     <Content Include="Images\BlueCoverPhoto3.jpg" />
     <Content Include="Images\CoverFlowersBlur.jpg" />
-    <Content Include="Images\DaisySprite.png" />
-    <Content Include="Images\LemonsCubed.jpg" />
-    <Content Include="Images\sky.jpg" />
-    <Content Include="Images\skyCoverPhoto.jpg" />
-    <Content Include="Images\Sprite.png" />
+    <Content Include="Images\myPhotograph.jpg" />
     <Content Include="Images\Sprite2.png" />
     <Content Include="Scripts\Home.js" />
     <Content Include="Scripts\Site.js" />
+    <Content Include="Styles\About.css" />
     <Content Include="Styles\Home.css" />
+    <Content Include="Styles\Pics.css" />
     <Content Include="Styles\TestPage.css" />
     <Content Include="TestPage.aspx" />
     <Content Include="Home.aspx" />
@@ -139,10 +138,17 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ResourceStrings.Designer.cs">
+    <Compile Include="App_GlobalResources\ResourceStrings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceStrings.resw</DependentUpon>
+      <DependentUpon>ResourceStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pics.aspx.cs">
+      <DependentUpon>Pics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pics.aspx.designer.cs">
+      <DependentUpon>Pics.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestPage.aspx.cs">
       <DependentUpon>TestPage.aspx</DependentUpon>
@@ -185,10 +191,13 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ResourceStrings.resw">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceStrings.Designer.cs</LastGenOutput>
-    </None>
+    <EmbeddedResource Include="App_GlobalResources\ResourceStrings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResumeTest.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -198,7 +207,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>10448</DevelopmentServerPort>
+          <DevelopmentServerPort>33975</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

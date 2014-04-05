@@ -91,11 +91,70 @@ body
     font-size: 0.8em;
     float:right;
     margin-right: 5em;
-    line-height: 6em;
+    line-height: 2em;
+    padding-top:2em;
     color: #fff;
 }
 
 .ui-menu { width: 150px; }
+
+.contSecondary
+{
+    width:100%;
+    height: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #fafafa;
+}
+
+.contSecondaryContent
+{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.connectIcons
+{
+    width:25%;  
+    float:left;  
+    vertical-align:middle;
+    line-height:40px;    
+}
+
+.connectIconLogo
+{
+    height: 40px;
+    width: 40px;
+    float:left; 
+    margin-right:5px;
+    cursor: pointer;   
+}
+
+.linkedInIcon
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position:-84px -46px;   
+}
+    
+.gitHubIcon
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: 0px -46px;  
+}
+    
+.sendEmailIcon
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -42px -46px;
+}
+
+.resumeIcon
+{
+    background-image: url('../Images/Sprite2.png');
+    background-position: -126px -46px;  
+}
 
 /* HEADINGS */
 h1
@@ -174,7 +233,30 @@ a:active
     color: #b0b397;
 }
 
+.connectIcons a:link, .connectIcons a:visited
+{
+    color: #9390ad !important;
+    text-decoration:underline;
+}
 
+.connectIcons a:hover
+{
+    color: #cac9d7 !important;
+    text-decoration: none;
+}
+
+.connectIcons a:active
+{
+    color: #b9bba2 !important;
+}
+
+@media screen and (max-width: 1600px)
+{
+}
+
+@media screen and (max-width: 1200px)
+{
+}
 
 /* Tablet & iPad */
 /*---------------*/
@@ -197,7 +279,15 @@ a:active
     .descriptionHeader
     {
         float:none;
-        }
+    }
+    
+    .connectIcons
+    {
+        width:50%;  
+        float:left;  
+        vertical-align:middle;
+        line-height:40px;    
+    }    
 }
 
 /* Large phones */
@@ -207,7 +297,8 @@ a:active
     h2
     {
         font-size: 2.5em;
-    }
+    }   
+  
 }
 
 /* Medium phones */
@@ -228,27 +319,27 @@ a:active
     {
         font-size: 0.8em;
         margin-top: 3.5em;
-    }
+    }    
 }
 
 /* Small phones */
 /*--------------*/
 @media screen and (max-width: 320px){
-
-   
+    
+    .connectIcons
+    {
+        width:100%;  
+        float:left;  
+        vertical-align:middle;
+        line-height:40px;    
+    }  
 }
-
 
 p
 {
     margin-bottom: 10px;
     line-height: 1.6em;
 }
-
-
-
-
-
 
 /* this rule styles <h1> and <h2> tags that are the 
 first child of the left and right table columns */

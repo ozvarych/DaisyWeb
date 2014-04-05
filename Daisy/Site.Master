@@ -21,14 +21,13 @@
     <asp:ContentPlaceHolder ID="phdNavMenu" runat="server">
         <div class="navMenu">
             <div class="navMenuContent" id="dropdown1">
-                <div class="navMenuItem"><a href="~/TestPage.aspx" ID="navContactItem" runat="server">Contact</a></div>
-                <div class="navMenuItem"><a href="~/About.aspx" ID="navAboutItem" runat="server">About</a></div>
-                <div class="navMenuItem"><a href="~/Home.aspx" ID="navHomeItem" runat="server">Home</a></div>
+                <div class="navMenuItem"><a href="~/TestPage.aspx" ID="navContactItem" runat="server"><asp:literal runat="server" Text="<%$ Resources: ResourceStrings, NavMenuContact %>"/></a></div>
+                <div class="navMenuItem"><a href="~/About.aspx" ID="navAboutItem" runat="server"><asp:literal ID="Literal1" runat="server" Text="<%$ Resources: ResourceStrings, NavMenuAbout %>"/></a></div>
+                <div class="navMenuItem"><a href="~/Home.aspx" ID="navHomeItem" runat="server"><asp:literal ID="Literal2" runat="server" Text="<%$ Resources: ResourceStrings, NavMenuHome %>"/></a></div>
             </div>
         </div>
-               
 
-        <ul id="menu">
+        <%--<ul id="menu">
             <li class=""><a href="#">Menu</a>
                 <ul>
                     <li class="ui-state-disabled"><a href="#">TestPage</a></li>
@@ -36,55 +35,19 @@
                     <li><a href="#">Home</a></li>
                 </ul>
             </li>
-        </ul>
+        </ul>--%>
 
-    </asp:ContentPlaceHolder>
-
-    <asp:ContentPlaceHolder ID="phdHeaderCoverPhoto" runat="server"/>
-    
-
-    <%--<div class="page">
-        <div class="header">
-            <div class="title">
-                <h1>
-                    My ASP.NET Application
-                </h1>
-            </div>
-            <div class="loginDisplay">
-                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
-                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
-                    </LoggedInTemplate>
-                </asp:LoginView>
-            </div>
-            <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
-                    </Items>
-                </asp:Menu>
-            </div>
-        </div>
-        <div class="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
-        </div>
-        <div class="clear">
-        </div>
-    </div>
-    <div class="footer">
-        
-    </div>--%>
+     </asp:ContentPlaceHolder>
+     <asp:ContentPlaceHolder ID="phdHeaderCoverPhoto" runat="server"/>   
      <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
-
-
+     <asp:ContentPlaceHolder ID="phdSecondaryCont" runat="server">
+        <asp:PlaceHolder runat="server" ID="phdConnectContent"></asp:PlaceHolder>
+     </asp:ContentPlaceHolder>
      <asp:ContentPlaceHolder ID="phdNavFooter" runat="server">
         <div class="navFooter">
-            <div class="navFooterItem">Oksana Zvarych © 2014 | All Rights Reserved</div>
+            <div class="navFooterItem">
+                <asp:literal runat="server" Text="<%$ Resources: ResourceStrings, NavFooterDescription %>"/>
+            </div>
         </div>
     </asp:ContentPlaceHolder>
     </form>

@@ -1,8 +1,8 @@
-﻿<%@ Page Title="About Oksana" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="About.aspx.cs" Inherits="Daisy.About" %>
+﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+    CodeBehind="Pics.aspx.cs" Inherits="Daisy.Pics" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
-    <link href="Styles/About.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Pics.css" rel="stylesheet" type="text/css" />
    
 
 </asp:Content>
